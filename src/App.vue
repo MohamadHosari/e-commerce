@@ -5,6 +5,7 @@
   <div>
     <Header />
     <banner />
+    <ctag />
   </div>
   
 </template>
@@ -12,6 +13,7 @@
 // import { RouterLink, RouterView } from 'vue-router'
 import Header from  './components/header.vue'
 import banner from './components/banner.vue'
+import ctag from './components/catagorie.vue'
 
 </script>
 <style scoped>
@@ -26,4 +28,9 @@ import banner from './components/banner.vue'
 body{
   color: #121212;
 }
+  .container{
+      max-width: calc(1440px - 170px);
+        width: 100%;
+        margin: auto;
+  }
 </style>
