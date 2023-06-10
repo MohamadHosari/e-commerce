@@ -10,6 +10,13 @@
                 {{ tab }}
                 </button>
             </div>
+            <div class="product">
+                <div class="single-product">
+                    <div class="img-conta">
+                        <img src="../assets/images/p1.jpeg" alt="product image">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
